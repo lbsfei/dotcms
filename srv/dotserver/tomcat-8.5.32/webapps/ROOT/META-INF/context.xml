@@ -1,0 +1,20 @@
+<Context path="${catalina.home}/webapps/ROOT" docBase="${catalina.home}/webapps/ROOT" reloadable="false" crossContext="true">
+<Resources allowLinking="true" />
+    <Loader delegate="true"/><!--https://issues.apache.org/bugzilla/show_bug.cgi?id=55943#c13-->
+    <Resource name="mail/MailSession" auth="Container" type="javax.mail.Session" mail.smtp.host="smtp" />
+
+    
+    <!-- POSTGRESQL -->
+    <Resource name="jdbc/dotCMSPool" auth="Container"
+          type="javax.sql.DataSource"
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+          driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://db:5432/dotcms"
+          username="dotcmsdbuser" password="password" maxActive="120" maxIdle="10" maxWait="60000"
+          removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+          timeBetweenEvictionRunsMillis="30000" validationQuery="SELECT 1" testOnBorrow="true" testWhileIdle="true"
+          abandonWhenPercentageFull="50"/>
+
+    
+
+</Context>

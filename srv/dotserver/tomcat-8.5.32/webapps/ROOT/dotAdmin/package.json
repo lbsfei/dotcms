@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dotcms-ui@5.0.3-1541797225285",
+        "scope": null,
+        "escapedName": "dotcms-ui",
+        "name": "dotcms-ui",
+        "rawSpec": "5.0.3-1541797225285",
+        "spec": "5.0.3-1541797225285",
+        "type": "version"
+      },
+      "/opt/dotcms/tmp/dsilva/core-release-5.0.3/dotCMS"
+    ]
+  ],
+  "_from": "dotcms-ui@5.0.3-1541797225285",
+  "_hasShrinkwrap": false,
+  "_id": "dotcms-ui@5.0.3-1541797225285",
+  "_inCache": true,
+  "_location": "/dotcms-ui",
+  "_nodeVersion": "8.11.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dotcms-ui_5.0.3-1541797225285_1541797233680_0.7979049048808444"
+  },
+  "_npmUser": {
+    "name": "dotcms",
+    "email": "dev@dotcms.com"
+  },
+  "_npmVersion": "6.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dotcms-ui@5.0.3-1541797225285",
+    "scope": null,
+    "escapedName": "dotcms-ui",
+    "name": "dotcms-ui",
+    "rawSpec": "5.0.3-1541797225285",
+    "spec": "5.0.3-1541797225285",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dotcms-ui/-/dotcms-ui-5.0.3-1541797225285.tgz",
+  "_shasum": "37813f60332274ebde667e0dd117e04ca6a3d7ca",
+  "_shrinkwrap": null,
+  "_spec": "dotcms-ui@5.0.3-1541797225285",
+  "_where": "/opt/dotcms/tmp/dsilva/core-release-5.0.3/dotCMS",
+  "bugs": {
+    "url": "https://github.com/dotCMS/core-web/issues"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.4.6",
+    "@angular/common": "^4.4.6",
+    "@angular/compiler": "^4.4.6",
+    "@angular/core": "^4.4.6",
+    "@angular/forms": "^4.4.6",
+    "@angular/http": "^4.4.6",
+    "@angular/platform-browser": "^4.4.6",
+    "@angular/platform-browser-dynamic": "^4.4.6",
+    "@angular/router": "^4.4.6",
+    "@ctrl/tinycolor": "^2.0.0",
+    "angular2-grid": "^2.1.0",
+    "angular2-hotkeys": "^2.0.3",
+    "angular2-logger": "^0.5.1",
+    "angular2-tinymce": "^2.1.2",
+    "core-js": "^2.5.3",
+    "dotcms-rules-engine": "0.0.15",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.19.4",
+    "ng2-ace-editor": "^0.2.5",
+    "ng2-dragula": "^1.5.0",
+    "primeng": "^4.3.0",
+    "rxjs": "^5.5.5",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.0",
+    "@angular/compiler-cli": "^4.4.6",
+    "@angular/language-service": "^4.4.6",
+    "@types/googlemaps": "^3.30.1",
+    "@types/jasmine": "^2.8.2",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/node": "^6.0.93",
+    "codelyzer": "~3.1.1",
+    "dotcms-js": "^4.2.0-b100",
+    "font-awesome": "^4.7.0",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "node-sass": "^4.9.0",
+    "protractor": "~5.1.2",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.9.1",
+    "tslint-angular": "^1.1.1",
+    "typescript": "~2.3.3",
+    "webpack": "^3.10.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-W8N6E0tt95vscQMExYufqeiXsbDvHtLSuem7VZ14q9+NiJ8yuGK5htBlK2GVHeaAoDrd3odV/qjJ1aVuvWGWoA==",
+    "shasum": "37813f60332274ebde667e0dd117e04ca6a3d7ca",
+    "tarball": "https://registry.npmjs.org/dotcms-ui/-/dotcms-ui-5.0.3-1541797225285.tgz",
+    "fileCount": 66,
+    "unpackedSize": 8228991,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb5fVyCRA9TVsSAnZWagAAhswP/jeRX6FzUmOspJ23vC6e\nmSCp3BMfGdnEhmI1cCbOY4s5Ha++iww4nimUtXaSx9M3YKTANMGsCBf/QaQd\nzC9xpordO/HEhCgnXJl/CyLV+5PvmGtyj4dxkvMDatXm8zpqaEKpANLEr+Dv\nDH/dlBnW5tFy8G/sERASP3whVF4RLZOStftE6YYdcNLnw0egWfm/XcWBVI9r\nkAySlivoZHoHoZhSUWuWl5g10YEC3fxgxyXh9iJquUgMfbVMkBlE3uekAsOZ\nwPbaiWlwihjx960rhpWOfgMjEmuI399l8sYwzE7Rout1m34sk9+T6KxM9Qru\ngjsW6VHbz0qLC2Slu0TTGTLXEmM4CbYGC9oHQAUpD1x5SokGVvsvKVirXifR\no2Dv0lUnzDWIBnKg6LNjFzgJO31IpXreujqryJvDCa+la0fe9LrkUV9TCY/z\ny9mEGfvyW06KMS7v4WO9SD+XFmafJkHKoKKkgcED5arr7AUJX47Y/fuEien4\n0nLXM97bxYgwAQRqqlaw6Uu/L2mvxQ4L6QVCQInfJc5XBqq9Be84W9n1C+xL\npslWBr8ygsz7hgibQ0yA3wA9F0srFxaaFRfrKWJ1l/eBWj6zMgHC+20lVo6U\nhy+sFkAxI+0GSzYBh6RUJAnsb+MroRJftbj7kbJboEuccmQ5k6Yhc+Nm+fwX\noAV+\r\n=KGcD\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://github.com/dotCMS/core-web#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "dotcms",
+      "email": "dev@dotcms.com"
+    }
+  ],
+  "name": "dotcms-ui",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotCMS/core-web.git"
+  },
+  "scripts": {
+    "build": "ng build --prod --aot=false --base-href=\"./\"",
+    "build:dev": "ng build -v -w --dev --aot=false --base-href=\"./\"",
+    "devversionbump": "node -e \"var data = require('./dist/package.json');var fs = require('fs');data.version = data.version + \"-\" + new Date().getTime();fs.writeFileSync('./dist/package.json', JSON.stringify(data, null, 4));\"",
+    "dotcms": "npm run build:dev --sourcemap=true --",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "publishdev": "rm -rf dist;npm run build;cp package.json ./dist/package.json;npm run devversionbump;cd dist;npm publish",
+    "start": "ng serve --proxy-config proxy.conf.json --port 3000",
+    "test": "ng test --sm=false",
+    "watch": "npm run build -w --no-delete-output-path --sourcemap"
+  },
+  "version": "5.0.3-1541797225285"
+}

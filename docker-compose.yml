@@ -1,0 +1,46 @@
+version: '3.5'
+networks:
+  rcdp_db_net:
+  default:
+    driver: bridge
+
+  nginx-proxy_nginx-proxy:
+    external: true
+
+volumes:
+  rcdp-cms-shared:
+  rcdp-cms-local:
+
+services:
+  dotcms:
+    build: .
+    # image: dotcms/dotcms:latest
+    ports:
+      - "8899:8080"
+    environment:
+      "CMS_HEAP_SIZE": '1g'
+      "CMS_JAVA_OPTS": '-XX:+PrintFlagsFinal'
+      "PROVIDER_DB_DNSNAME": 'db'
+      "VIRTUAL_HOST": "dotcms-rcdp-demo.liangzhicn.com"
+      "VIRTUAL_PROTO": "http"
+      "VIRTUAL_PORT": "8899"
+    container_name: 'rcdp-dotcms'
+    depends_on:
+      - db
+    networks:
+      - rcdp_db_net
+      - default
+      - nginx-proxy_nginx-proxy
+    volumes:
+      - rcdp-cms-shared:/data/shared
+      - rcdp-cms-local:/data/local
+      -  ./srv:/srv
+      -  /var/run/docker.sock:/var/run/docker.sock
+
+  db:
+    image: dotcms/postgres:latest
+    container_name: 'rcdp-db'
+    volumes:
+      - ./dbdata:/data/pg
+    networks:
+      - rcdp_db_net
