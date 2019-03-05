@@ -21,7 +21,7 @@ services:
       "CMS_HEAP_SIZE": '1g'
       "CMS_JAVA_OPTS": '-XX:+PrintFlagsFinal'
       "PROVIDER_DB_DNSNAME": 'db'
-      "VIRTUAL_HOST": "dotcms-rcdp-demo.liangzhicn.com"
+      "VIRTUAL_HOST": "dotcms-demo.yoursite.com"
       "VIRTUAL_PROTO": "http"
       "VIRTUAL_PORT": "8899"
     container_name: 'rcdp-dotcms'
